@@ -8,6 +8,8 @@ const authRoutes = require('./routes/auth');
 const loginRoutes = require('./routes/login');
 const passwordRoutes = require('./routes/password');
 
+
+
 // Middleware para pasear json
 app.use(cors());
 app.use(express.json());
